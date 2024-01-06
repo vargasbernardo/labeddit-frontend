@@ -14,4 +14,4 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'IBM Plex Sans', sans-serif;
 
     }
-`
+`;
