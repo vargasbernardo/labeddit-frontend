@@ -1,12 +1,12 @@
-import {useState} from 'react'
+import { useState } from "react";
 
 const useForm = (initialState) => {
-    const [form, setForm] = useState(initialState)
-    const onChange = (e) => {
-        const { name, value, type, checked } = e.target
-        setForm({...form, [name]: type === 'checkbox' ? checked : value })
-    }
-    return {form, onChange}
-}
+  const [form, setForm] = useState(initialState);
+  const onChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setForm({ ...form, [name]: type === "checkbox" ? checked : value });
+  };
+  return { form, onChange };
+};
 
-export default useForm
+export default useForm;
