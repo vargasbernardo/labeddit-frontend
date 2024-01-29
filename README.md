@@ -43,3 +43,4 @@ Ele utiliza uma API própria e foi desenvolvido em React e utiliza React Router 
 **Informções Relevantes**
 - Link do repositório para o BackEnd: https://github.com/vargasbernardo/labeddit-backend
 - O BackEnd está sendo hospedado no Render utilizando o deploy free tier, o que faz com que o servidor fique inativo após tempo sem uso. Caso Demore o loading ou de Erro na primeira requisição, um refresh na página pode resolver wink wink.
+- Link do deploy do projeto: https://labeddit-frontend-roan.vercel.app/
