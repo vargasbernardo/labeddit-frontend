@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Projeto Labeddit
+## Projeto fullstack do curso da Labenu.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Descrição**
+  O projeto é um projeto full-stack de uma rede social, com páginas de Home, SignUp, Feed, Detalhes de posts onde é possível comentar e dar likes em posts e comentários. 
+Ele utiliza uma API própria e foi desenvolvido em React e utiliza React Router para cuidar das rotas, styled-components para a estilização e Axios para a integrção com o banco de dados.
 
-## Available Scripts
+**Funcionalidades** 
+- Home: Na primeira página é possível fazer login com uma conta ja cadastrada ou entrar na página de SignUp e criar uma conta nova!
+- SignUp: Na página de SignUp o usuário pode criar uma conta nova utilizando email, senha e nome. Após criada a conta ele é redirecionado diretamente à página de feed.
+- Feed: Página protegida para usuários autenticados, nela o usuário pode ver os posts de outros usuários, fazer novos posts, clicar em um post especifico e ver os comentários, além de dar likes e dislikes.
+- Detalhes de posts: Nessa página o usuário pode comentar no post, ver outros comentários além de dar likes e dislikes nos comentários.
 
-In the project directory, you can run:
+**Ferramentas Utilizadas**
+- React
+- React Router
+- styled-components
+- Axios
 
-### `npm start`
+**Instalação e Uso**
+- Clone o repositório
+- Executo o npm install para instalar as dependências
+- Execute o npm run start para iniciar o servidor de desenvolvimento
+- Acesse o projeto no navegador através do link http://localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Capturas de tela**
+- Página Home
+  ![HomePage](https://github.com/vargasbernardo/labeddit-frontend/assets/114179673/36725217-89ba-41b4-bf07-6a78d7b32704)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Página de SignUp
+  
 
-### `npm test`
+![SignUpPage](https://github.com/vargasbernardo/labeddit-frontend/assets/114179673/1914c3e1-bc22-4f49-8d3f-a28c4520d229)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Página do Feed
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2024-01-29 143122](https://github.com/vargasbernardo/labeddit-frontend/assets/114179673/69d1d944-c0ee-4913-bb3b-6e47021e6083)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Página de Detalhes
+![PostDetailpage](https://github.com/vargasbernardo/labeddit-frontend/assets/114179673/e7c4b4d2-56b9-49df-a915-271e83597136)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Informções Relevantes**
+- [Link do repositório para o BackEnd:] (https://github.com/vargasbernardo/labeddit-backend)
+- O BackEnd está sendo hospedado no Render utilizando o deploy free tier, o que faz com que o servidor fique inativo após tempo sem uso. Caso Demore o loading ou de Erro na primeira requisição, um refresh na página pode resolver wink wink.
