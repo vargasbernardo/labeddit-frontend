@@ -1,11 +1,14 @@
 import { GlobalStyles } from "./GlobalStyles";
+import GlobalState from "./context/GlobalState";
 import Router from "./router/Router";
 
 function App() {
   return (
     <>
-      <GlobalStyles />
-      <Router />
+      <GlobalState>
+        <GlobalStyles />
+        <Router />
+      </GlobalState>
     </>
   );
 }

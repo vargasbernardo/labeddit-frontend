@@ -13,9 +13,14 @@ export const HeaderContainer = styled.div`
     margin-right: 20px;
     text-decoration: none;
     color: blue;
+    font-weight: bold;
   }
   img {
     grid-column: 2;
     justify-self: center;
+  }
+  svg {
+    grid-column: 1;
+    justify-self: start;
   }
 `;
