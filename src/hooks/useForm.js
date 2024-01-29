@@ -6,7 +6,10 @@ const useForm = (initialState) => {
     const { name, value, type, checked } = e.target;
     setForm({ ...form, [name]: type === "checkbox" ? checked : value });
   };
-  return { form, onChange };
+  const resetForm = () => {
+    setForm(initialState);
+  };
+  return { form, onChange, resetForm };
 };
 
 export default useForm;

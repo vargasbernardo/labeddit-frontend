@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-export const PostCardContainer = styled.div`
+export const CommentCardContainer = styled.div`
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
   border-radius: 15px;
   margin-top: 15px;
-  width: 80%;
+  min-width: 400px;
   padding: 10px;
+  margin-bottom: 15px;
   h5 {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -24,15 +25,8 @@ export const LikesDislikesContainer = styled.span`
   justify-content: space-around;
   width: 35%;
 `;
+
 export const LikesDislikesCommentsContainer = styled.div`
   display: flex;
   flex-direction: row;
-`;
-export const CommentsContainer = styled.span`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid gray;
-  border-radius: 15px;
-  width: 25%;
 `;
